@@ -57,6 +57,10 @@ $ [sudo] pecl install grpc
 
 You will need to install the protocol buffer compiler `protoc` and the special
 plugin for generating server and client code from `.proto` service definitions.
+See [the official Protocol Buffers install
+guide](https://github.com/google/protobuf/blob/master/src/README.md) for
+details.
+
 For the first part of our quickstart example, we've already generated the server
 and client stubs from
 [helloworld.proto](https://github.com/grpc/grpc/tree/{{site.data.config.grpc_release_branch}}/examples/protos/helloworld.proto),
